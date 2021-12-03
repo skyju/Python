@@ -1,5 +1,29 @@
 """
 <자료형>
+
+Immutable
+(정수, 실수, 문자열, 튜플)
+a = 1
+def vartest(a):
+    a = a+1
+vartest(a)
+print(a)
+
+>
+def vartestt(a):
+    a += 1
+    return a
+a = vartestt(a)
+print(a)
+
+Mutable
+(리스트, 딕셔너리, 집합)
+b = [1,2,3]
+def vartest2(b):
+    b = b.append(4)
+vartest2(b)
+print(b)
+
 1. 숫자
 2. 문자열
 3. bool
@@ -7,7 +31,7 @@
 5. List
 6. Tuple
 7. Dictionary
-8. Set
+8. Set...
 
 type()을 통해 자료형을 확인
 
